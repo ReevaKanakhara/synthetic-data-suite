@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Database
+*.db
+*.db-journal
+*.sqlite3
+
+# ML model files (too large for GitHub)
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.onnx
+huggingface_cache/
+
+# Generated images
+uploads/*.png
+uploads/*.jpg
+uploads/*.jpeg
+
+# Node
+node_modules/
+.next/
+out/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+celery*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Environment files (keep .env.example, ignore real .env)
+.env
+.env.local
+.env.production

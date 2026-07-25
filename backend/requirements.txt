@@ -1,0 +1,28 @@
+#Web Framework 
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+#Database
+sqlalchemy>=2.0.49
+aiosqlite==0.20.0
+
+#Task Queue
+celery==5.4.0
+redis==5.0.4
+
+#Config & Validation
+python-dotenv==1.0.1
+pydantic-settings==2.2.1
+python-multipart==0.0.9
+
+#Image Processing 
+Pillow>=10.4.0
+
+#ML Engine (Phase 2)
+torch>=2.1.0
+diffusers>=0.27.0
+transformers>=4.40.0
+accelerate>=0.30.0
+
+#Testing
+requests>=2.31.0

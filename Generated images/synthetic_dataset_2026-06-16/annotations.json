@@ -1,0 +1,32 @@
+{
+  "info": {
+    "description": "Synthetic Data Suite — Generated Dataset",
+    "prompt": "a blue car on an empty road, golden hour, cinematic, 8k",
+    "version": "1.0",
+    "date_created": "2026-06-16T09:30:45.807Z",
+    "total_images": 3,
+    "total_annotations": 0
+  },
+  "images": [
+    {
+      "id": 1,
+      "file_name": "images/image_001.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": 2,
+      "file_name": "images/image_002.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": 3,
+      "file_name": "images/image_003.png",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "annotations": [],
+  "categories": []
+}

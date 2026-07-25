@@ -32,12 +32,12 @@ approves, and the dataset is exported to any ML framework format.
 │   Next.js 15    │ ────────────► │      FastAPI Backend         │
 │   TypeScript    │               │                              │
 │   Tailwind CSS  │               │  ┌────────────────────────┐  │
-│   Framer Motion │               │  │    Celery Worker        │ │
-│                 │               │  │    (Async Task Queue)   │ │
+│   Framer Motion │               │  │    Celery Worker       │  │
+│                 │               │  │    (Async Task Queue)  │  │
 │  Dashboard      │               │  └──────────┬─────────────┘  │
 │  Gallery        │               │             │                │
 │  Annotation     │               │  ┌──────────▼─────────────┐  │
-│  Studio         │               │  │    ML Pipeline          │ │
+│  Studio         │               │  │    ML Pipeline         │  │
 │  Batch Gen      │               │  │                        │  │
 └─────────────────┘               │  │  SD v1.5  (local GPU)  │  │
                                   │  │  SD 3.5   (Replicate)  │  │
